@@ -1,7 +1,5 @@
 import cv2, os, math, threading
 import numpy as np
-import urllib.request as urlreq
-from pylab import rcParams
 import mediapipe as mp
 from gtts import gTTS
 from playsound import playsound
