@@ -133,4 +133,8 @@ while 1:
     cv2.waitKey(1)
 
 camera.release()
+<<<<<<< HEAD
 cv2.destroyAllWindows()
+=======
+cv2.destroyAllWindows()
+>>>>>>> 0f6c40bde39afffe351f1e5457c183b356083f38
