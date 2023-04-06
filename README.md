@@ -17,8 +17,8 @@ OpenCV and mediapipe were first used to place facial landmarks on a user's head.
 </p>
 
 <p>
-  &nbsp; &nbsp; &nbsp; &nbsp; <code> - face mesh created from mediapipe are shown with the white dots </code> <br>
-  &nbsp; &nbsp; &nbsp; &nbsp; <code> - points used in the point-to-perspective formula are shown as red dots </code> <br>
-  &nbsp; &nbsp; &nbsp; &nbsp; <code> - perspective vector is shown with the blue line </code> <br>
-  &nbsp; &nbsp; &nbsp; &nbsp; <code> - the vertical angle is shown with the green text in the top left </code>
+  <code><br>- face mesh created from mediapipe are shown with the white dots <br>
+  - points used in the point-to-perspective formula are shown as red dots <br>
+  - perspective vector is shown with the blue line <br>
+  - the vertical angle is shown with the green text in the top left</code>
 </p>
