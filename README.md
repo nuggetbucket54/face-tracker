@@ -1,5 +1,5 @@
-# levelhead
-(currently under work) a basketball trainer based on computer vision
+# Levelhead
+A basketball trainer based on computer vision
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/55860775/160269657-4cf698f7-dd32-4f7e-862e-1b90c30b7600.png"/>
