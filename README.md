@@ -1,4 +1,4 @@
-# Face tracking thingy
+# Face tracker
 (Originally) a basketball trainer based on computer vision
 
 This repo was originally created for my submission to TreasureHacks 2022: Levelhead. Levelhead used computer vision to determine the angle a person's head is facing and gave aural and visual alerts to promote good basketball practice etiquette. However, this code can be adapted for any use case involving calculating facial orientation angles.
