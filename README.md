@@ -1,11 +1,7 @@
-# Levelhead
-A basketball trainer based on computer vision
+# Face tracking thingy
+(Originally) a basketball trainer based on computer vision
 
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/55860775/160269657-4cf698f7-dd32-4f7e-862e-1b90c30b7600.png"/>
-</p>
-
-Levelhead uses computer vision to determine the angle a person's head is facing. If the user's head is tilted too high or low, Levelhead gives an aural and visual alert to keep their head level. So far this is literally just a program that detects when your head is not perfectly level to the camera (sadge)
+This repo was originally created for my submission to TreasureHacks 2022: Levelhead. Levelhead used computer vision to determine the angle a person's head is facing and gave aural and visual alerts to promote good basketball practice etiquette. However, this code can be adapted for any use case involving calculating facial orientation angles.
 
 OpenCV and mediapipe were first used to place facial landmarks on a user's head. Specific landmarks and their respective locations were then picked and passed through a Perspective and Point formula to determine the direction the user is facing. Next, a personally developed formula was used to determine the vertical component angle of the person's head. If facing too high/low, visual cues from OpenCV and audio cues from Playsound were used to tell the user to keep their head level while practicing.
 
@@ -16,9 +12,8 @@ OpenCV and mediapipe were first used to place facial landmarks on a user's head.
   the inner workings of levelhead; the image above shows:
 </p>
 
-<p>
-  <code><br>- face mesh created from mediapipe are shown with the white dots <br>
-  - points used in the point-to-perspective formula are shown as red dots <br>
-  - perspective vector is shown with the blue line <br>
-  - the vertical angle is shown with the green text in the top left</code>
-</p>
+- Face mesh created from mediapipe are shown with the white dots <br/>
+- Points used in the point-to-perspective formula are shown as red dots <br/> 
+- Perspective vector is shown with the blue line <br/>
+- The vertical angle is shown with the green text in the top left (may be a bit inaccurate lol) <br/>
+
